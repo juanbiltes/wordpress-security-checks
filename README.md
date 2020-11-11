@@ -5,7 +5,7 @@
 2. Open a terminal and access the directory where you've cloned this repository
 3. Run this command `docker-compose up -d`  and wait for everything to finish, although it´ll exit, the server will be running in the background
 3. Access your WordPress in `http://localhost:8000`
-4. It'll probably ask you to setup the site, use this config and then click on "Instalar Wordpress":
+4. It'll probably ask you to setup the site, use the following config and then click on "Instalar Wordpress":
 ```
 Titulo del sitio: Security Tests
 Nombre del usuario: admin
