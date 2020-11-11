@@ -15,6 +15,7 @@ tu correo: pepe@gmail.com
 visibilidad en motores: no, unchecked
 ```
 5. Done, now login with user `admin` and password `admin`
+6. Last, add a host as this one. If you're on Linux/UNIX run `nano /etc/hosts` and add a line with this `127.0.0.1 wordpress-security.com`. We may use this in some tools.
 
 ## Usage
 > Make sure your docker images are running. You can validate this using the docker dashboard (you've already installed it).
