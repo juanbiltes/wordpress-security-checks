@@ -1,12 +1,10 @@
 
-# Installment
-
 ## Installing Docker
-1- Install [Docker for your O.S](https://docs.docker.com/get-docker/).
-2- Open a terminal and access this directory 
-3- Run this command `docker-compose up -d`  and wait for everything to finish, although it´ll exit, the server will be running in the background
-3- Access your WordPress in `http://localhost:8000`
-3.bis- It'll probably ask you to setup the site, use this config and then click on "Instalar Wordpress":
+1. Install [Docker for your O.S](https://docs.docker.com/get-docker/).
+2. Open a terminal and access this directory 
+3. Run this command `docker-compose up -d`  and wait for everything to finish, although it´ll exit, the server will be running in the background
+3. Access your WordPress in `http://localhost:8000`
+4. It'll probably ask you to setup the site, use this config and then click on "Instalar Wordpress":
 ```
 Titulo del sitio: Security Tests
 Nombre del usuario: admin
@@ -15,10 +13,10 @@ confirma la contrasena: si, checked
 tu correo: pepe@gmail.com
 visibilidad en motores: no, unchecked
 ```
-4- Done, now login with user `admin` and password `admin`
-
+5. Done, now login with user `admin` and password `admin`
 
 ## Usage
+> Make sure your docker images are running. You can validate this using the docker dashboard (you've already installed it).
 
 ### Wordpress
 
